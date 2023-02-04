@@ -1,0 +1,121 @@
+/*   --section-projects--   */
+.projects__section {
+    background: #131313; 
+    width: 100%;
+    padding-bottom: 360px; 
+}
+
+.projects__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 134px 50px 134px;
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.projects__title {
+    display: flex;
+    flex-direction: column;
+    position: absolute;  
+    max-width: 442px;
+    padding-top: 73px;
+}
+
+
+.projects__total {
+    display: flex;
+    flex-grow: 1;   /*без него justify-content почему-то не работает, хотя align-items без него работает - ВЕРНО?*/
+    justify-content: space-between;
+    align-items: flex-end;
+   
+}
+
+
+.projects__photo-gallery ul {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 45px;
+}
+.projects__photo-gallery li {
+    margin: 5px;
+}
+.projects__photo img {
+object-fit: cover;
+width: 100%; 
+}
+
+.projects__info {
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;  
+    max-width: 442px;
+    min-height: 220px;
+    padding-bottom: 44px;
+    
+}
+.projects__block {
+    padding-right: 10px;
+}
+.projects__h4 {
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-bottom: 5px;
+}
+
+
+.projects__slider {
+    display: flex;
+    width: 205px;
+    height: 13px;
+    margin-top: -18px;
+}
+.desk-slide-element {
+    display: flex;
+    padding-right: 30px;
+}
+.desk-slide-circle {
+    padding-right: 17.5px;
+}
+
+.projects__slider--mobile {
+    display: none;
+}
+
+
+
+/*content-style*/
+.projects__h2 {
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.projects__p {
+    font-size: 14px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 25px;
+}
+
+.projects__block span {
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.projects__photo-gallery li a {
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.projects__photo-gallery li a:hover {
+    padding-bottom: 7px;
+    border-bottom: 1px solid #E3B873;
+    color: #E3B873;
+}
+
+

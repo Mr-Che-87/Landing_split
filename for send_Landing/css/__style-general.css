@@ -1,0 +1,133 @@
+/*
+Константин, комментарии во всех файлах - ЭТО ВОПРОСЫ К ВАМ! по возможности ответьте - лучше прямо внутри кода. Спасибо! :) 
+*/
+
+@import url('_interactive-elements.css');
+@import url('header.css');
+@import url('main__section.css');
+@import url('projects__section.css');
+@import url('camera__section.css');
+@import url('types-repair__section.css');
+@import url('measure__section.css');
+@import url('styles__section.css');
+@import url('feedback__section.css');
+@import url('questions__section.css');
+@import url('footer.css');
+
+@import url('_interactive-elements--1000px.css');
+@import url('header--1000px.css');
+@import url('main__section--1000px.css');
+@import url('projects__section--1000px.css');
+@import url('projects__section--1300px.css');
+@import url('camera__section--1000px.css');
+@import url('types-repair__section--1000px.css');
+@import url('measure__section--1000px.css');
+@import url('styles__section--1000px.css');
+@import url('feedback__section--1000px.css');
+@import url('questions__section--1000px.css');
+@import url('footer--1000px.css');
+
+
+
+
+
+
+/*  --fonts-- */
+@font-face {
+    font-family: 'YesevaOne';
+    src: url('../fonts/YesevaOne-Regular.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans';
+    src: url('../fonts/NunitoSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'NunitoSans-Italic';
+    src: url('../fonts/NunitoSans-Italic.ttf');
+}
+
+body {
+    font-family: 'NunitoSans',sans-serif;
+    width: 100%;
+}
+
+.h1, h2, h3, h4 {
+    font-family: 'YesevaOne', serif;
+}
+
+.button {
+    font-family: 'NunitoSans-Italic';
+}
+
+
+
+
+/*  --general-- */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    /*box-sizing: border-box; - ЛУЧШЕ ПРИМЕНЯТЬ СРАЗУ  ДЛЯ ВСЕГО ПРОЕКТА, ВЕРНО?   БЕЗ НЕГО ХУЖЕ?*/     
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
